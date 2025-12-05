@@ -44,7 +44,7 @@
                 sources = {
                   "x86_64-linux" = pkgs.fetchurl {
                     url = "https://github.com/glide-browser/glide/releases/download/${version}/glide.linux-x86_64.tar.xz";
-                    sha256 = "13zxlq4m1ypvqsb4az8sqls28q2nx4drx4nhxxg1cmkpjxm6c3r2";
+                    sha256 = "10j9ljamm8fzw1anapymqmn5bgxmcq6l636h0xlrckvzc0m3qfcs";
                   };
                   "aarch64-linux" = pkgs.fetchurl {
                     url = "https://github.com/glide-browser/glide/releases/download/${version}/glide.linux-aarch64.tar.xz";
